@@ -6,6 +6,9 @@
 
   <body>
     <h1>Index</h1>
+    <% Dog.all.each do %>
+    <h3> <%= dog.breed %> </h3>
+    <%end%>
     <p> I love programming </p>
   </body>
 </html>
